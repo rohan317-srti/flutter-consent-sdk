@@ -28,16 +28,16 @@ class _MyAppState extends State<MyApp> {
     initPlatformState();
 
     CmpSDKOptions options = CmpSDKOptions()
-        ..appURL = "https://dev-intg-2.securiti.xyz"
-        ..cdnURL =  "https://cdn-dev-intg-2.securiti.xyz/consent"
-        ..tenantID = "d525a59e-896e-4a85-ad1a-84921e9acce0"
-        ..appID = "175f4dbd-ba1c-4821-9792-d5cc29237db2"
+        ..appURL = "Your APP URL"
+        ..cdnURL =  "Your CDN URL"
+        ..tenantID = "Your Tenant ID"
+        ..appID = "Your App ID"
         ..testingMode = true
         ..loggerLevel = "DEBUG"
         ..consentsCheckInterval = 1800
-        ..subjectId = "subject123"
-        ..languageCode = "en"
-        ..locationCode = "PK";  
+        ..subjectId = "Your Subject ID"
+        ..languageCode = "Your Language Code"
+        ..locationCode = "Your Location Code";  
 
     _consentSdkPlugin.setupSDK(options.toMap());
     _eventChannel.receiveBroadcastStream().listen((event) {
