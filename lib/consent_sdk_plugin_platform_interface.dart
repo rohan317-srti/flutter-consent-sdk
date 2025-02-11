@@ -1,4 +1,3 @@
-import 'package:consent_sdk_plugin/cmp_sdk_options.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 import 'consent_sdk_plugin_method_channel.dart';

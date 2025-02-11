@@ -1,6 +1,5 @@
 
 import 'consent_sdk_plugin_platform_interface.dart';
-import 'cmp_sdk_options.dart';
 
 class ConsentSdkPlugin {
   Future<String?> getPlatformVersion() {

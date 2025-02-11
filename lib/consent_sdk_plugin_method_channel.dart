@@ -2,7 +2,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
 import 'consent_sdk_plugin_platform_interface.dart';
-import 'cmp_sdk_options.dart';
 
 /// An implementation of [ConsentSdkPluginPlatform] that uses method channels.
 class MethodChannelConsentSdkPlugin extends ConsentSdkPluginPlatform {
