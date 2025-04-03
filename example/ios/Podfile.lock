@@ -1,0 +1,36 @@
+PODS:
+  - consent_sdk_plugin (0.0.1):
+    - ConsentUI (~> 1.129)
+    - Flutter
+  - ConsentUI (1.129.0)
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - consent_sdk_plugin (from `.symlinks/plugins/consent_sdk_plugin/ios`)
+  - ConsentUI (~> 1.129)
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+
+SPEC REPOS:
+  trunk:
+    - ConsentUI
+
+EXTERNAL SOURCES:
+  consent_sdk_plugin:
+    :path: ".symlinks/plugins/consent_sdk_plugin/ios"
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+
+SPEC CHECKSUMS:
+  consent_sdk_plugin: 3bb5b2141251bbecf7a78478e6c5e4f0f19b6d74
+  ConsentUI: 822d543a5d56ae39eea48acfd896cf0e2d5d127a
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  integration_test: 252f60fa39af5e17c3aa9899d35d908a0721b573
+
+PODFILE CHECKSUM: 757e595598ce69e10fd1b6d055a4343a2e44045d
+
+COCOAPODS: 1.16.2
